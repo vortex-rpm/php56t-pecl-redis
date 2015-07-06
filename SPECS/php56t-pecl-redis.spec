@@ -37,7 +37,7 @@ Group:         Development/Languages
 URL:           http://pecl.php.net/package/redis
 Source0:       http://pecl.php.net/get/%{pecl_name}-%{version}.tgz
 # https://github.com/nicolasff/phpredis/issues/332 - missing tests
-Source1:       https://github.com/nicolasff/phpredis/archive/%{version}.tar.gz
+# Source1:       https://github.com/nicolasff/phpredis/archive/%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires: %{php_base}-devel %{php_base}-pear
